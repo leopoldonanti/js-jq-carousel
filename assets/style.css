@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+header .container{
+  border: 20px solid greenyellow;
+}
+
+/* header img{
+  width: 300px;
+  margin: 20px 0px 20px 0px;
+ } */
+
+ header h1{
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: greenyellow;
+  /* -webkit-text-stroke: 0.7px white; */
+  }
+
+.container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+#carosello{
+  border: 20px solid pink;
+  background-color: greenyellow ;
+}
+
+.wrapper{
+  width: 50%;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+}
+
+.album{
+  display: flex;
+  justify-content: center;
+}
+
+.album img{
+  width: 70%;
+}
+
+.col-btn-dx{
+  margin-left: 50px;
+}
+
+.col-btn-sx{
+  margin-right: 50px;
+}
+
+.col-btn-dx, .col-btn-sx{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 10px solid pink;
+  background-color:greenyellow;
+  color: pink;
+}
+
+.pulsantiera{
+  width: 50%;
+  background-color: indianred;
+  
+}
+
+.pulsantiera{
+  background-color: rgb(255, 184, 5);
+  border: 20px solid greenyellow;
+
+}
